@@ -70,15 +70,24 @@ Do your first session as a route ride, before you try anything else. It works li
 1. Start the game and load your save (starter save: Load Game > ManualSave-2077). Stand somewhere in the city, on foot.
 2. Wake your sensors: pedal a few strokes to wake the trainer, and shake the HR and/or CORE sensor. Close Zwift or any other app connected to them. Most trainers only allow one Bluetooth connection.
 3. Press `F6` to open the menu. On the DEVICES tab, connect your trainer and sensors (same as any other training platform).
-4. On the RIDER tab, set your FTP (watts, default 200 W), your weight (rider, bike and gear, extra) and your riding position. FTP sets your power zones and the colors on the screen (and IF and TSS). Weight and position decide how fast you go for your watts, especially uphill. It all saves by itself, and if you use intervals.icu your FTP can sync from there.
+4. On the RIDER tab, set your FTP (watts, default 200 W), your weight (rider, bike and gear, extra) and your riding position. FTP sets your power zones and the colors on the screen (and IF and TSS). Weight and position decide how fast you go for your watts, especially uphill. It all saves by itself.
 5. On the RIDE tab, pick a route and start. Your watts set the speed. Stop pedaling and you coast.
 6. To finish, press `F10` and confirm. The ride saves as a FIT file in `Documents\Tour de Night City\Activities`. Upload it anywhere, or sync to intervals.icu from the SHARING tab (or from the bridge app running behind the game in Windows). Getting off the bike only pauses, it doesn't end the ride.
 
 ### After your first ride
 
-- Try WORKOUTS for structured workouts in ERG.
+- Try WORKOUTS for structured workouts in ERG. Workouts can come from intervals.icu (see the next section).
 - Once you're comfortable, try LUNATIC: a free ride where you steer. Just for fun, and still an early preview.
 - No trainer? Use simulated watts (`Page Up` / `Page Down`) to try it out.
+
+## Workouts and intervals.icu
+
+Design and schedule your workouts in intervals.icu and they sync into the WORKOUTS tab, ready to ride in Night City. It's a great way to do your training in a nicer setting than a plain screen.
+
+- Finished rides upload back to intervals.icu with all the data, including core sensor data.
+- Coach: in F6 > WORKOUTS, the COACH option (Delamain or Off) decides whether Delamain texts you during workouts.
+- ERG ease: in F6 > DEVICES, "ERG ease" (0 to 10 seconds) sets how gently the trainer fades from one interval target to the next. Most platforms don't let you adjust this.
+- Tip: use a longer ease for long, steady intervals, and a short one for microbursts and other short sharp efforts so each effort hits right away.
 
 ## Controls (rebind in CET bindings)
 
@@ -121,7 +130,7 @@ Do your first session as a route ride, before you try anything else. It works li
 ### Workouts
 
 - Structured workouts with ERG. Skip steps or nudge intensity mid-ride. Also added a masochist "back" feature to the workout controls, so you can always go back and do an interval again.
-- intervals.icu sync: pulls your planned workouts, uploads finished rides, includes all data, including core sensor data.
+- Your intervals.icu workouts sync into the WORKOUTS tab. See "Workouts and intervals.icu" above.
 
 ### After the ride
 
