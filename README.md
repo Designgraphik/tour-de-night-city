@@ -1,3 +1,5 @@
+![Tour de Night City](banner.jpg)
+
 # Tour de Night City
 
 A Zwift-style cycling ride through Night City, powered by your smart trainer and Cyberpunk 2077.
