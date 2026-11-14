@@ -12,9 +12,11 @@ No trainer? You can still ride with simulated watts to preview the mod.
 
 I'm a graphic designer, and this project is funded by my own company, [YouWorkForThem](https://www.youworkforthem.com), which sells fonts and stock graphics. If you're enjoying the mod, grabbing something there or sending it to a designer friend as a reference, helps a lot. 🙏
 
-## Video
+## Videos
 
-[![Watch Tour de Night City on YouTube](https://img.youtube.com/vi/D-hKF3gWz20/maxresdefault.jpg)](https://www.youtube.com/watch?v=D-hKF3gWz20)
+| A route ride | Early Lunatic mode |
+| --- | --- |
+| [![Watch a route ride on YouTube](https://img.youtube.com/vi/D-hKF3gWz20/maxresdefault.jpg)](https://www.youtube.com/watch?v=D-hKF3gWz20) | [![Watch early Lunatic mode on YouTube](https://img.youtube.com/vi/NwAcoBPvM7E/maxresdefault.jpg)](https://www.youtube.com/watch?v=NwAcoBPvM7E) |
 
 ## Screenshots
 
@@ -46,6 +48,10 @@ A Nexus Mods page is coming, just waiting on their approval. For now the downloa
 - If Windows SmartScreen warns you, click More info, then Run anyway. The files aren't code-signed, I ain't spamming nobody with this mod.
 - You need a save past the prologue, or tick "Add the starter save" in the setup.
 - Only use the Manual zip if you already manage mods yourself.
+
+### What is the bridge?
+
+The bridge is a small Windows app that comes with the mod and starts by itself when the game starts. It runs in the background because Cyberpunk 2077 can't talk to Bluetooth devices on its own. The bridge connects to your trainer and sensors, passes your watts to the game, saves your FIT files and handles intervals.icu sync. Leave it running while you ride. Its window is also where you find the LOGS tab (ZIP FOR SUPPORT), the STEERING tab and the Apps page.
 
 ## Installation instructions
 
@@ -97,6 +103,8 @@ Do your first session as a route ride, before you try anything else. It works li
 ## Workouts and intervals.icu
 
 Design and schedule your workouts in intervals.icu and they sync into the WORKOUTS tab, ready to ride in Night City. It's a great way to do your training in a nicer setting than a plain screen.
+
+To connect, add your intervals.icu API key on the Apps page of the bridge window.
 
 - Finished rides upload back to intervals.icu with all the data, including core sensor data.
 - Coach: in F6 > WORKOUTS, the COACH option (Delamain or Off) decides whether Delamain texts you during workouts.
