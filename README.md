@@ -105,6 +105,7 @@ Do your first session as a route ride, before you try anything else. It works li
 
 ### After your first ride
 
+- Your rides are saved in `C:\Users\<your name>\Documents\Tour de Night City\Activities`, one folder per ride with the FIT file, the ride data and a ride summary image. If Windows keeps your Documents in OneDrive, look in the OneDrive Documents folder instead.
 - Try WORKOUTS for structured workouts in ERG. Workouts can come from intervals.icu (see the next section).
 - Once you're comfortable, try LUNATIC: a free ride where you steer. Just for fun, and still an early preview.
 - No trainer? Use simulated watts (`Page Up` / `Page Down`) to try it out.
