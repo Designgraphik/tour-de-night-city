@@ -161,6 +161,12 @@ Design and schedule your workouts in intervals.icu and they sync into the WORKOU
 - RED4ext, redscript, Cyber Engine Tweaks, ArchiveXL, TweakXL and Codeware. The setup exe installs any you're missing. Manual users, install these first.
 - Optional: the Cycling.Native plugin (included) for a smoother camera, built for game version 2.5.
 
+## About the author
+
+Designgraphik is a designer, developer and entrepreneur with 30+ years of experience across graphic design, motion graphics, web development and type design. He got his start at Bethesda Softworks (Vir2l) as a web designer during the early dot-com era, then founded a design studio that produced branding, motion graphics and web work for clients including ESPN, MTV and Apple. That studio became [YouWorkForThem](https://www.youworkforthem.com), an independent font and design resource marketplace he has owned and run for over 25 years.
+
+He also founded [Designgraphik.com](https://www.designgraphik.com), an early benchmark for abstract web design that earned multiple Site of the Day awards from Macromedia and Adobe and led to talks at design conferences including OFFF Festival, AIGA and Flash Forward. His work has been recognized with a Cannes Cyber Lion, ADC awards and a Chrysler Design Award nomination at just 21. Today he works across the full stack (design, 3D, directing, code, servers, photography and video) and builds personal projects across many industries, like this one.
+
 ## Shout outs
 
 Huge thanks to the people behind the frameworks this runs on:
