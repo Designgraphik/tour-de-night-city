@@ -17,12 +17,12 @@ Get the files from the [latest release](https://github.com/Designgraphik/tour-de
 | File | What it is |
 | --- | --- |
 | Setup zip | The installer, and the recommended download. Unzip it and run the setup exe inside. |
-| Manual zip | The manual install. |
+| Manual zip | The mod files only: copy or extract them into your game folder. It does NOT include the six required frameworks, so install those first (or use the Setup zip, which installs them for you). |
 | Starter save zip | Optional starter save. |
 
 Check your downloads against `SHA256SUMS.txt`.
 
-The Nexus Mods page, <https://www.nexusmods.com/cyberpunk2077/mods/38198>, is the main home.
+A Nexus Mods page is coming, just waiting on their approval. For now the downloads are here on GitHub.
 
 ## Installation instructions
 
@@ -34,7 +34,13 @@ The Nexus Mods page, <https://www.nexusmods.com/cyberpunk2077/mods/38198>, is th
 
 ### Manual zip
 
-1. Install the six frameworks listed under Requirements.
+1. This zip contains only Tour de Night City, not the six frameworks it needs. Install these first:
+   - [RED4ext](https://github.com/wopss/RED4ext)
+   - [redscript](https://github.com/jac3km4/redscript)
+   - [Cyber Engine Tweaks](https://github.com/maximegmd/CyberEngineTweaks)
+   - [ArchiveXL](https://github.com/psiberx/cp2077-archive-xl)
+   - [TweakXL](https://github.com/psiberx/cp2077-tweak-xl)
+   - [Codeware](https://github.com/psiberx/cp2077-codeware)
 2. Close the game.
 3. Right-click the zip, Properties, tick Unblock.
 4. Extract into your game folder and merge.
@@ -83,7 +89,7 @@ Using intervals.icu? Click the connect from the sharing tab or from the open bri
 
 - Most trainers only take one Bluetooth connection, so close other apps first.
 - The bridge isn't code-signed, so Windows may warn you. Click More info, then Run anyway, I ain't spamming nobody with this mod.
-- Something broken or need help? Open an issue here or post in the Nexus Bugs tab with your version (menu > ABOUT). The bridge's LOGS tab has a ZIP FOR SUPPORT button that saves all logs as one zip on your Desktop; attach that.
+- Something broken or need help? Open an issue here with your version (menu > ABOUT). The bridge's LOGS tab has a ZIP FOR SUPPORT button that saves all logs as one zip on your Desktop; attach that.
 
 ## Main features
 
