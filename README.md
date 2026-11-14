@@ -10,7 +10,7 @@ Hit `F6` to open the mod console, pick a route and start pedaling. The bike stee
 
 No trainer? You can still ride with simulated watts to preview the mod.
 
-I'm a graphic designer, and this project is funded by my own company, [YouWorkForThem](https://www.youworkforthem.com), which sells fonts and stock graphics. If you're enjoying the mod, grabbing something there or sending it to a designer friend as a reference, helps a lot. 🙏
+I'm a graphic designer, and this project is funded by my own company, [YouWorkForThem](https://www.youworkforthem.com), which sells fonts and stock graphics. If you're enjoying the mod, grabbing something there or sending it to a designer friend as a reference helps a lot. 🙏
 
 ## Videos
 
@@ -47,6 +47,7 @@ A Nexus Mods page is coming, just waiting on their approval. For now the downloa
 - The setup finds your game by itself (Steam, GOG or Epic).
 - Close the game before you run the setup.
 - If Windows SmartScreen warns you, click More info, then Run anyway. The files aren't code-signed, I ain't spamming nobody with this mod.
+- Some antivirus tools may also flag the bridge app, because it's new and unsigned. That's a false positive.
 - You need a save past the prologue, or tick "Add the starter save" in the setup.
 - Only use the Manual zip if you already manage mods yourself.
 
@@ -83,6 +84,13 @@ Default keys are set on the first start. If you already had a Cyber Engine Tweak
 ### Starter save (optional)
 
 If you are here mainly from a cycling community and have never played Cyberpunk 2077 (and finished the opening story), I added a save file you can load to get rolling right away. The setup can add one for you: a Nomad V, level 33, in free roam, with 6 riding outfits in the wardrobe. Manual users can grab it from the release downloads. It never overwrites your own saves.
+
+To add it by hand, copy the `ManualSave-2077` folder from the zip into `%USERPROFILE%\Saved Games\CD Projekt Red\Cyberpunk 2077`, then in the game choose Load Game > ManualSave-2077. If a `ManualSave-2077` is already there, it's one of your own saves, so don't overwrite it.
+
+### Uninstall
+
+- Setup users: close the game, then go to Windows Settings > Apps > Installed apps > Tour de Night City > Uninstall (or run `TourDeNightCity-uninstall.exe` in the game folder). The frameworks stay unless you tick "Also remove them", because other mods may use them. Your rides, rider profile and settings are kept.
+- Manual users: delete the files listed in `FILES.txt` and the folder `bin\x64\plugins\cyber_engine_tweaks\mods\cyberpunk_cycling`. Your rides in `Documents\Tour de Night City` stay.
 
 ## First ride
 
@@ -133,6 +141,7 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 ## Important tips
 
 - Something broken or need help? Open an issue here with your version (menu > ABOUT). The bridge's LOGS tab has a ZIP FOR SUPPORT button that saves all logs as one zip on your Desktop; attach that.
+- Game updates: Cyberpunk patches can break mods until the frameworks and the mod catch up. This version is built for game version 2.5, so if the game updates and something stops working, check here for a new release.
 
 ## Main features
 
@@ -145,7 +154,7 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 
 ### Trainer and sensors
 
-- Smart trainers over Bluetooth (FTMS). Resistance changes with the hills.
+- Smart trainers over Bluetooth FTMS, the standard most current smart trainers use (Wahoo, Tacx, Elite, Saris, Zwift and others). Check that yours supports Bluetooth FTMS. Resistance changes with the hills.
 - HR straps, cadence sensors, power meters and CORE body temp.
 - Color of power in top hud adjusts based on zones you are in, zones calculated based on the ftp you define in your settings.
 - Core body sensor data shows bottom left, and color adjusts as you hit heat training zones.
@@ -167,6 +176,12 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 - Gigs: short delivery runs for fixers, with rewards and badges. Experimental idea for some unique short training sessions.
 - Lunatic mode: free ride, you steer, weapons allowed. Purely for fun. I haven't tested this fully, consider this very early preview feature. Controller support: pedal and the bike moves without holding W, and you steer with the stick. Elite Sterzo Smart steering works through the bridge's STEERING tab (beta, not tested on a real Sterzo yet). The game window must be active, because the bridge steers by pressing A and D.
 
+## Design
+
+We stuck to the same Cyberpunk colors, fonts and styles to stay consistent with the game's aesthetic. The interface still tries to keep and capture the sprites and vibe of the game.
+
+The HUD, the F6 menu, lap cards, workout panel and ride summary all use the game's own look, so it feels like part of Night City instead of a fitness app pasted on top. Even the coach is Delamain texting you. Being a graphic designer, I couldn't help sweating the details.
+
 ## On the roadmap
 
 - Race mode and group rides - there is group rides now (3 other bots), but it's super rough and provides little. But it's there...
@@ -181,13 +196,13 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 - Cyberpunk 2077 v2.5 (Steam, GOG or Epic). On Epic, start the game from the Epic launcher as usual; the mod loads the same way.
 - A save past the prologue, or use the starter save
 - Windows 10 (2004+) or 11 with Bluetooth LE
-- Smart trainer recommended. HR, cadence and power sensors are optional.
+- Smart trainer with Bluetooth FTMS recommended. HR, cadence and power sensors are optional.
 - RED4ext, redscript, Cyber Engine Tweaks, ArchiveXL, TweakXL and Codeware. The setup exe installs any you're missing. Manual users, install these first.
 - Optional: the Cycling.Native plugin (included) for a smoother camera, built for game version 2.5.
 
 ## About the author
 
-Designgraphik is a designer, developer and entrepreneur with 30+ years of experience across graphic design, motion graphics, web development and type design. He got his start at Bethesda Softworks (Vir2l) as a web designer during the early dot-com era, then founded a design studio that produced branding, motion graphics and web work for clients including ESPN, MTV and Apple. That studio became [YouWorkForThem](https://www.youworkforthem.com), an independent font and design resource marketplace he has owned and run for over 25 years.
+Designgraphik is a designer, developer and entrepreneur with 30+ years of experience across graphic design, motion graphics, web development and type design. He got his start at Bethesda Softworks (Vir2l) as a web designer during the early dot-com era, then founded a design studio that produced branding, motion graphics and web work for clients including ESPN, MTV and Apple. That studio became [YouWorkForThem](https://www.youworkforthem.com), an independent font and design resource marketplace he has owned and run for over 25 years. He has also worked with Valve for over a decade, designing custom fonts for Half-Life, Dota and Steam.
 
 He also founded [Designgraphik.com](https://www.designgraphik.com), an early benchmark for abstract web design that earned multiple Site of the Day awards from Macromedia and Adobe and led to talks at design conferences including OFFF Festival, AIGA and Flash Forward. His work has been recognized with a Cannes Cyber Lion, ADC awards and a Chrysler Design Award nomination at just 21. Today he works across the full stack (design, 3D, directing, code, servers, photography and video) and builds personal projects across many industries, like this one.
 
@@ -202,4 +217,4 @@ Huge thanks to the people behind the frameworks this runs on:
 
 ## Licence
 
-The mod is free to use; see `LICENSE.txt` in the downloads. Bundled frameworks keep their own licences.
+Free for personal, non-commercial use; see `LICENSE.txt` in the downloads. Please don't re-upload or redistribute it. Share a link to this page instead. Bundled frameworks keep their own licences.
