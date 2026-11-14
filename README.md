@@ -12,7 +12,7 @@ I'm a graphic designer, and this project is funded by my own company, [YouWorkFo
 
 ## Download
 
-Get the files from the [latest release](https://github.com/Designgraphik/tour-de-night-city/releases/latest). The file names carry the version number, so this README doesn't need editing each release.
+Get the files from the [latest release](https://github.com/Designgraphik/tour-de-night-city/releases/latest).
 
 | File | What it is |
 | --- | --- |
@@ -30,7 +30,7 @@ The Nexus Mods page, <https://www.nexusmods.com/cyberpunk2077/mods/38198>, is th
 
 1. Close the game.
 2. Run the setup and follow along. It installs any missing frameworks and can add the starter save.
-3. Launch the game. When Cyber Engine Tweaks asks for an overlay key, press `F6`.
+3. Start the game and load a save. The menu key is `F6`, set up automatically.
 
 ### Manual zip
 
@@ -38,9 +38,11 @@ The Nexus Mods page, <https://www.nexusmods.com/cyberpunk2077/mods/38198>, is th
 2. Close the game.
 3. Right-click the zip, Properties, tick Unblock.
 4. Extract into your game folder and merge.
-5. Launch the game and set `F6` as the CET overlay key.
+5. Start the game and load a save. The menu key is `F6`, set up automatically.
 
 Full steps are in `README-INSTALL.txt` inside the zip.
+
+Default keys are set on the first start. If you already had a Cyber Engine Tweaks menu key, that key opens the menu. If another mod uses `F6`, Cyber Engine Tweaks asks you to pick a key.
 
 ### Starter save (optional)
 
@@ -51,8 +53,9 @@ If you are here mainly from a cycling community and have never played Cyberpunk 
 1. Load a save (or the one I provided) and stand somewhere in the city, on foot.
 2. Pedal a few strokes to wake the trainer, shake the HR and/or core sensor to wake them up. Close Zwift or anything else connected to these sensors.
 3. Press `F6`, open DEVICES and connect your trainer and other sensors (same as any other training platform).
-4. Open RIDE, pick a route and go. Or pick a workout from WORKOUTS.
-5. Press `F10` and confirm to end and save.
+4. Open the RIDER tab and set your FTP (default 200 W), your weight (rider, bike and gear, extra) and your riding position. FTP drives the power zones, IF and TSS, and weight and position decide how fast you go for your watts, especially on climbs. Changes save by themselves, and if you use intervals.icu your FTP can sync from there.
+5. Open RIDE, pick a route and go. Or pick a workout from WORKOUTS.
+6. Press `F10` and confirm to end and save.
 
 Rides are saved to `Documents\Tour de Night City\Activities`.
 
@@ -68,6 +71,7 @@ Using intervals.icu? Click the connect from the sharing tab or from the open bri
 | `F4` | FPS counter |
 | `F5` | U-turn |
 | `F6` | Mod menu |
+| `L` | New lap (ends the current lap, starts the next). Hold to hide or show the lap card. |
 | `F10` | End ride (or hold `End` for 1 sec) |
 | `F11` | Cycle cameras (1 to 8 to pick one) |
 | `Page Up` / `Page Down` | Sim watts +/- 10 W |
@@ -79,7 +83,7 @@ Using intervals.icu? Click the connect from the sharing tab or from the open bri
 
 - Most trainers only take one Bluetooth connection, so close other apps first.
 - The bridge isn't code-signed, so Windows may warn you. Click More info, then Run anyway, I ain't spamming nobody with this mod.
-- Something broken? Open an issue here or post in the Nexus Bugs tab with your version (menu > ABOUT) and attach `bridge-log.txt` and `ride-log.txt` from the mod folder.
+- Something broken or need help? Open an issue here or post in the Nexus Bugs tab with your version (menu > ABOUT). The bridge's LOGS tab has a ZIP FOR SUPPORT button that saves all logs as one zip on your Desktop; attach that.
 
 ## Main features
 
@@ -112,7 +116,7 @@ Using intervals.icu? Click the connect from the sharing tab or from the open bri
 - Multiple cameras, including first person.
 - Pick the time of day and weather.
 - Gigs: short delivery runs for fixers, with rewards and badges. Experimental idea for some unique short training sessions.
-- Lunatic mode: free ride, you steer, weapons allowed. Purely for fun. I haven't tested this fully, consider this very early preview feature. I will add steering support soon once I can test it myself.
+- Lunatic mode: free ride, you steer, weapons allowed. Purely for fun. I haven't tested this fully, consider this very early preview feature. Controller support: pedal and the bike moves without holding W, and you steer with the stick. Elite Sterzo Smart steering works through the bridge's STEERING tab (beta, not tested on a real Sterzo yet). The game window must be active, because the bridge steers by pressing A and D.
 
 ## On the roadmap
 
