@@ -20,9 +20,18 @@ Get the files from the [latest release](https://github.com/Designgraphik/tour-de
 | Manual zip | The mod files only: copy or extract them into your game folder. It does NOT include the six required frameworks, so install those first (or use the Setup zip, which installs them for you). |
 | Starter save zip | Optional starter save. |
 
-Check your downloads against `SHA256SUMS.txt`.
+Optional, for the technically curious: `SHA256SUMS.txt` lists checksums to confirm your download is complete and untouched.
 
 A Nexus Mods page is coming, just waiting on their approval. For now the downloads are here on GitHub.
+
+## New to mods? Start here
+
+- Download the Setup zip. It does everything: it installs the mod and the six frameworks it needs. The frameworks are small free helper mods that most Cyberpunk mods use.
+- The setup finds your game by itself (Steam, GOG or Epic).
+- Close the game before you run the setup.
+- If Windows SmartScreen warns you, click More info, then Run anyway. The files aren't code-signed, I ain't spamming nobody with this mod.
+- You need a save past the prologue, or tick "Add the starter save" in the setup.
+- Only use the Manual zip if you already manage mods yourself.
 
 ## Installation instructions
 
@@ -56,16 +65,20 @@ If you are here mainly from a cycling community and have never played Cyberpunk 
 
 ## First ride
 
-1. Load a save (or the one I provided) and stand somewhere in the city, on foot.
-2. Pedal a few strokes to wake the trainer, shake the HR and/or core sensor to wake them up. Close Zwift or anything else connected to these sensors.
-3. Press `F6`, open DEVICES and connect your trainer and other sensors (same as any other training platform).
-4. Open the RIDER tab and set your FTP (default 200 W), your weight (rider, bike and gear, extra) and your riding position. FTP drives the power zones, IF and TSS, and weight and position decide how fast you go for your watts, especially on climbs. Changes save by themselves, and if you use intervals.icu your FTP can sync from there.
-5. Open RIDE, pick a route and go. Or pick a workout from WORKOUTS.
-6. Press `F10` and confirm to end and save.
+Do your first session as a route ride, before you try anything else. It works like Zwift and other platforms: the bike is locked to the road and steers itself, so all you do is pedal.
 
-Rides are saved to `Documents\Tour de Night City\Activities`.
+1. Start the game and load your save (starter save: Load Game > ManualSave-2077). Stand somewhere in the city, on foot.
+2. Wake your sensors: pedal a few strokes to wake the trainer, and shake the HR and/or CORE sensor. Close Zwift or any other app connected to them. Most trainers only allow one Bluetooth connection.
+3. Press `F6` to open the menu. On the DEVICES tab, connect your trainer and sensors (same as any other training platform).
+4. On the RIDER tab, set your FTP (watts, default 200 W), your weight (rider, bike and gear, extra) and your riding position. FTP sets your power zones and the colors on the screen (and IF and TSS). Weight and position decide how fast you go for your watts, especially uphill. It all saves by itself, and if you use intervals.icu your FTP can sync from there.
+5. On the RIDE tab, pick a route and start. Your watts set the speed. Stop pedaling and you coast.
+6. To finish, press `F10` and confirm. The ride saves as a FIT file in `Documents\Tour de Night City\Activities`. Upload it anywhere, or sync to intervals.icu from the SHARING tab (or from the bridge app running behind the game in Windows). Getting off the bike only pauses, it doesn't end the ride.
 
-Using intervals.icu? Click the connect from the sharing tab or from the open bridge app running behind the game in Windows.
+### After your first ride
+
+- Try WORKOUTS for structured workouts in ERG.
+- Once you're comfortable, try LUNATIC: a free ride where you steer. Just for fun, and still an early preview.
+- No trainer? Use simulated watts (`Page Up` / `Page Down`) to try it out.
 
 ## Controls (rebind in CET bindings)
 
@@ -87,8 +100,6 @@ Using intervals.icu? Click the connect from the sharing tab or from the open bri
 
 ## Important tips
 
-- Most trainers only take one Bluetooth connection, so close other apps first.
-- The bridge isn't code-signed, so Windows may warn you. Click More info, then Run anyway, I ain't spamming nobody with this mod.
 - Something broken or need help? Open an issue here with your version (menu > ABOUT). The bridge's LOGS tab has a ZIP FOR SUPPORT button that saves all logs as one zip on your Desktop; attach that.
 
 ## Main features
