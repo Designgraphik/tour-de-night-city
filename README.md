@@ -154,7 +154,7 @@ Design and schedule your workouts in intervals.icu and they sync into the WORKOU
 
 ## Requirements
 
-- Cyberpunk 2077 v2.5 (Steam or GOG)
+- Cyberpunk 2077 v2.5 (Steam, GOG or Epic)
 - A save past the prologue, or use the starter save
 - Windows 10 (2004+) or 11 with Bluetooth LE
 - Smart trainer recommended. HR, cadence and power sensors are optional.
