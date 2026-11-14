@@ -12,6 +12,18 @@ No trainer? You can still ride with simulated watts to preview the mod.
 
 I'm a graphic designer, and this project is funded by my own company, [YouWorkForThem](https://www.youworkforthem.com), which sells fonts and stock graphics. If you're enjoying the mod, grabbing something there or sending it to a designer friend as a reference, helps a lot. 🙏
 
+## Video
+
+[![Watch Tour de Night City on YouTube](https://img.youtube.com/vi/D-hKF3gWz20/maxresdefault.jpg)](https://www.youtube.com/watch?v=D-hKF3gWz20)
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![North Oak, side view](screenshots/north-oak-sign-side-view.jpg) | ![Daylight ride with traffic](screenshots/daylight-side-view-traffic.jpg) |
+| ![Chase camera in a dust storm](screenshots/dust-storm-tpp-chase.jpg) | ![Ride HUD with laps](screenshots/manual-laps-ride-hud.jpg) |
+| ![Flat circuit with CORE body temp](screenshots/flat-circuit-core-tile.jpg) | ![North Oak, chase camera](screenshots/north-oak-tpp-mouse-look.jpg) |
+
 ## Download
 
 Get the files from the [latest release](https://github.com/Designgraphik/tour-de-night-city/releases/latest).
