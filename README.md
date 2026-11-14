@@ -137,7 +137,7 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 
 ### Riding
 
-- 26 routes, from flat loops to long climbs. Most work in reverse too. Many of the inclines in Night City are pretty extreme, so this is why I made the simulated grade lock so your trainer doesn't go into a death grind.
+- 26 routes, from a 1.2 km flat circuit to the 53 km Tour de Night City. Together they cover about 373 km of road and 5,161 m of climbing (one lap of each), and 23 of them can also be ridden in reverse. Many of the inclines in Night City are pretty extreme, so this is why I made the simulated grade lock so your trainer doesn't go into a death grind.
 - Speed comes from your watts. Stop pedaling and you coast, like a real bike, dynamics are based on real world physics (speed, weight, crr, etc).
 - Laps, drafting, named climb and sprint segments, and a record of your best lap.
 - Set your FTP, weight, riding position and road surface. Maybe more detail than most need, but it's there if you want to tweak.
@@ -172,6 +172,7 @@ To connect, add your intervals.icu API key on the Apps page of the bridge window
 - Power-ups
 - NPC crowds on routes - some crack heads cheering you on from the sidelines.
 - Strava upload (those goofballs don't make api access easy, dinosaur tech)
+- Custom routes made from Lunatic mode: ride your own path once in Lunatic, then ride it again as a route. We are exploring this for more abstract and creative paths.
 - Random start positions on routes (I dislike how every platform you always start from same place on routes).
 
 ## Requirements
