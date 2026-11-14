@@ -24,7 +24,7 @@ I'm a graphic designer, and this project is funded by my own company, [YouWorkFo
 | --- | --- |
 | ![North Oak, side view](screenshots/north-oak-sign-side-view.jpg) | ![Daylight ride with traffic](screenshots/daylight-side-view-traffic.jpg) |
 | ![Chase camera in a dust storm](screenshots/dust-storm-tpp-chase.jpg) | ![Ride HUD with laps](screenshots/manual-laps-ride-hud.jpg) |
-| ![Flat circuit with CORE body temp](screenshots/flat-circuit-core-tile.jpg) | ![North Oak, chase camera](screenshots/north-oak-tpp-mouse-look.jpg) |
+| ![Flat circuit with CORE body temp](screenshots/flat-circuit-core-tile.jpg) | ![Ride summary at the end of a ride](screenshots/ride-summary.jpg) |
 
 ## Download
 
